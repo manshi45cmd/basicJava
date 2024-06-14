@@ -1,0 +1,21 @@
+package june6th;
+
+public class Employee {
+	
+	int empId;
+	String empDepartment;
+	String slalry;
+	String address;
+	
+	public Employee() {}
+	
+	public    void display () {
+//		return "shift";
+	}
+	
+	public String empShift()
+	{
+		return "morning";
+	}
+
+}

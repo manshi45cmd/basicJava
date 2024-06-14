@@ -1,0 +1,31 @@
+package june6th;
+
+public class Employee {
+	
+	int empId;
+	String empDepartment;
+	String slalry;
+	String address;
+	
+	
+	public Employee(int empId, String empDepartment, String slalry, String address) {
+		
+		this.empId = empId;
+		this.empDepartment = empDepartment;
+		this.slalry = slalry;
+		this.address = address;
+	}
+
+	public Employee() {}
+	
+	public    void display () {
+      System.out.println("empId--->"+empId);
+     // System.out.println();
+	}
+	
+	public String empShift()
+	{
+		return "morning";
+	}
+
+}

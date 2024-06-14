@@ -1,0 +1,18 @@
+package june11;
+
+public class WashingMatchine  extends Appliance{
+	
+	private int size;
+	private String capacity;
+	
+	public void matchineOn() {
+		System.out.println("maichine is start");
+	}
+	
+	public WashingMatchine (int size ,String capacity) {
+		this.size = size;
+		this.capacity= capacity;
+	}
+	
+
+}

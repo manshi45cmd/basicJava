@@ -1,0 +1,22 @@
+package pattern_printing;
+
+public class AlphabetsSquare {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 5;
+		int a;
+         for(int i=1;i<=n;i++) {
+        	 a=1;
+        	 //char A;
+        	 for(int j=1;j<=n;j++) {
+        		// int d = a +64;
+        		// char ch= (char)d;
+        		 System.out.print(a+64);
+        		  a=a++;
+        	 }
+        	 System.out.println();
+         }
+	}
+
+}
