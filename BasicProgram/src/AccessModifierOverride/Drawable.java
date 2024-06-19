@@ -1,5 +1,10 @@
 package AccessModifierOverride;
 
-public class Drawable {
-
+public class interface Drawable {
+	
+	void deaw();
+ 
+	 {
+		
+	}
 }

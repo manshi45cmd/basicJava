@@ -1,0 +1,11 @@
+package june18.array;
+
+public class TTT {
+	public static void main(String[] args) {
+		 int[] ttt = {34,23,3,53,21,6,2};
+		 
+		 int reverse[] = ttt;
+		 System.out.println( reverse);
+	}
+
+}
