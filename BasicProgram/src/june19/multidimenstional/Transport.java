@@ -5,36 +5,35 @@ public class Transport {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int n = 3;
-		int m = 3;
-		int count =1;
-		int [][] mat =  new  int  [3][3];
 		 
-		for(int i = 0; i<n;i++) {
-			for(int j =0;j< m;j++) {
-				  count++;
-			}
-		}
-		
-		int[][] transpose = new int [n][m];
-		
-		for (int i=0;i<n;i++) {
-			for(int j = 0;j<m;j++) {
-				transpose[j][i] = mat[i][j];
-				//[i][j] = count++;
+		int [][] mat =   {{0,0,0,0},{1,1,1,1},{2,2,2,2}
 				
+		};
+		 
+		int [][] arr = new int[mat[0].length][mat.length];
+		
+		
+		for(int i = 0; i<mat.length;i++) {
+			for(int j =0;j<mat[0].length ;j++) {
+				 arr[j][i] = mat[i][j];
 			}
 		}
-		System.out.println("transpose of matrix ");
-		for(int i = 0; i<m;i++) {
-			for(int j = 0;j<n;j++) {
-				System.out.print(transpose[i][j]+" ");
-			}// mat[i][j] = count++;
+		
+
+		for(int i = 0; i<arr.length;i++) {
+			for(int j =0;j< arr[0].length ;j++) {
+			System.out.print(arr[i][j]+" ");
+				  
+			}
+			System.out.println();
+		}
+		 
+		 
 			
 		}
-		System.out.println();
+		  
 				
 
 	}
 
-}
+
