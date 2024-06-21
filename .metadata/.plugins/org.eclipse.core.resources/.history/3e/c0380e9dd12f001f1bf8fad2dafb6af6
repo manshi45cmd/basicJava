@@ -1,0 +1,14 @@
+package june21.Abstract;
+
+public abstract class DemoAbstract {
+	
+	public abstract  void saveCutomerDetails() ;
+	// this i sthe abstract mathod that its implimentation part of would 
+		
+	// concrat method also
+	public void bankLogo() {
+		System.out.println("you all can see this thing");
+	}
+	// one more abs class 
+	public abstract  void takeLoan();
+}

@@ -1,9 +1,0 @@
-package june12.override;
-
-public class SBI {
-	
-	public double rate() {
-		return 7.5;
-	}
-
-}

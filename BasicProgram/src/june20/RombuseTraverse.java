@@ -17,8 +17,14 @@ public class RombuseTraverse {
 	
 	
 	for (int  i = 1 , j= c/2-1 ; i<= r/2 && j >=0 ; i++ , j-- ) {
-		System.out.print(mat[i][j]+" ");
-	}
-	         
+	System.out.print(mat[i][j]+" ");
+    }
+	      
+	for (int  i = 2 , j= c/2-1 ; i>=0 && j >=1 ; i++ , j-- ) {
+		System.out.print(mat[i][i]+" ");
+		
+	    }
+	
+	 
 }
 }
