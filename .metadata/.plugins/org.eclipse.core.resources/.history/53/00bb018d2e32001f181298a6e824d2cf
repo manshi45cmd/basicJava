@@ -1,0 +1,17 @@
+package june24.Final;
+
+public class Student {
+	int rollnumber;
+	String name;
+	final String college = "SNGGPG";
+	
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+		s.name= "Neha";
+		s.rollnumber = 1212;
+		//s.college = "SNGGPG";
+		System.out.println(s);
+	}
+
+}

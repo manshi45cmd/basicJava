@@ -2,7 +2,7 @@ package june18.array;
 
 public class Reverse {
 	
-	public static int[] reverse(int[] aeeay) {
+	public static int[] reverse(int[] array) {
 		int [] newArray = new int[array.length];
 		int count = 0;
 		for(int i = array.length -1;i>=0;i--) {
@@ -21,7 +21,7 @@ public class Reverse {
 		
 		//for(i=0;i<ra.length)
 		for(int i = ttt.length-1;i>=0;i--) {
-			System.out.println(ttt[i]);
+			System.out.print(ttt[i]+" ");
 		}
 
 	}

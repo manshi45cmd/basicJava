@@ -1,0 +1,13 @@
+package june24.interfacee;
+
+public class SavingsAccount extends BankAccount  {
+	private double interfaceRate;
+	
+	public SavingsAccount(double balance,double interfaceRate) {
+		super(balance);
+		this.interfaceRate;
+	}
+
+	public void calculateInterest();
+
+}

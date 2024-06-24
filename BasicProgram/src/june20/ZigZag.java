@@ -18,7 +18,7 @@ public class ZigZag {
 			}}
 			else {
 				for(int j = 0;j<mat[0].length;j++) {
-					System.out.println(mat[i][j]+" ");
+					System.out.print(mat[i][j]+" ");
 				}
 			}
 		}
