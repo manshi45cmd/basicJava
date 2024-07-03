@@ -1,4 +1,5 @@
 package July;
+
 import java.util.*;
 public class Excption {
 
@@ -23,6 +24,23 @@ public class Excption {
       
         
         System.out.println("neha");
+	
+	
+	
+	int[]arr = new int[5];
+	
+	arr[0] = 2;
+	arr[1]= 12;
+	arr[2]= 22;
+	arr[3]= 21;
+	arr[4]= 31;
+	
+	try {
+		System.out.println(arr[6]);
+	}catch(AlreadyBoundException e) {
+		//System.out.println(e);
+	}
+	
 	}
 
 }

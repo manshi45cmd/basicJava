@@ -1,0 +1,5 @@
+package July1.ex1;
+
+public class TooMuchAmountException extends Exception {
+
+}

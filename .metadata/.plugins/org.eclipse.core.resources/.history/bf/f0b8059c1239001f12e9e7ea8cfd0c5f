@@ -1,0 +1,55 @@
+package lab2;
+
+public class BankAccount {
+
+ public double balance;
+
+   public BankAccount() {
+	this.balance = 0.0;
+	    }
+  public void deposit(double amount) {
+	    if (amount > 0) {
+	     this.balance += amount;
+	   }
+	    else {
+	    System.out.println("Deposit amount must be positive.");
+	        }
+	    }
+ // @Override
+	public void deposit(double amount, String description )
+	{
+		deposit (amount);
+		if(amount > 0) {
+			System.out.println(" deposited " + amount );
+		}
+	}
+	
+	public void deposit(BankAccount  account,double amount) {
+		if account.balance >= amount) {
+			 account.balance -= amount;
+			balance += amount;
+			System.out.println("transfred "+ amount);
+		}
+	}
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	public void withdraw(double amount) {
+		if(amount > 0 && this.balance >= amount) {
+			
+		} else {
+			System.out.println("whithrawal failed ..");
+		}
+	}
+	
+	public static void main(String[] args) {
+		BankAccount ba1 = new BankAccount();
+		amount.
+	}
+}
+
+
+	
+

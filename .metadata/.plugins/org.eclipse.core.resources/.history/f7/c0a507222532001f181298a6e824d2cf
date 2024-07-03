@@ -1,9 +1,0 @@
-package june24.interfacee;
-
-public class Car {
-
-	public void acceleration(int force);
-	
-	public void break();
-	
-}

@@ -12,4 +12,9 @@ public class Main {
 
 	}
 
+	private static char[] calculateArea(double d) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

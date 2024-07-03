@@ -5,7 +5,5 @@ public class Bank {
 	public double rate() {
 		rateOfIntrest  = 5.0;
 		return rateOfIntrest;
-		
 	}
-
-}
+} 
