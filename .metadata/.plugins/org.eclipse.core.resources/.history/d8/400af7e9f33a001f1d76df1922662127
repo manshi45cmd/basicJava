@@ -1,0 +1,26 @@
+package javabeen;
+
+public class Student {
+	
+	public Student() {}
+
+	public Student(String string, Address address, int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setId(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setAdd(Address add) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

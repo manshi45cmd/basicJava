@@ -1,0 +1,54 @@
+package javabeen;
+
+public class Student {
+	
+	  String name;
+	  String address;
+	   int id;
+	 
+	public Student(String name, String address, int id) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.id = id;
+	}
+	 
+	 
+ 
+
+
+
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", address=" + address + ", id=" + id + "]";
+	}
+
+
+
+
+
+
+	public Student() {}
+
+	public Student(String string, Address address, int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void setName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setId(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setAdd(Address add) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

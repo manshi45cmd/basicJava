@@ -1,0 +1,29 @@
+package javabeen.HW;
+
+public class Main {
+
+	public static void main(String[] args) {
+		 
+		University[] arr = new University[5];
+		
+		Department d = new Department();
+		d.setDepartmentId(123);
+		d.setDepartmentname("IT");
+		
+		University u1 = new University();
+		
+		u1.setDepartment( "BU");
+		
+		Professer p1 = new Professer();
+		p1.setDepartment(d.getDepartmentname());
+		p1.setProfessorId(101);
+		p1.setProfessorName("Aman");
+		
+		arr[0]= u1;
+		
+		System.out.println(arr[0]);
+	
+	}
+
+}
+ 

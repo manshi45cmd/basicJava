@@ -1,0 +1,9 @@
+package july8.vector;
+import java.util.*;
+public class Vector {
+	public static void main(String[] args) {
+		
+		Vector pp = new Vector;
+	}
+
+}

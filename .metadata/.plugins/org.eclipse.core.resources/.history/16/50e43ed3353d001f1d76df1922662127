@@ -1,0 +1,25 @@
+package july8.vector;
+import java.util.*;
+public class Example2 {
+	
+	public static void main(String[] args) {
+		
+		Vector<String> v = new Vector<>();
+		
+		v.add("ramehs");
+		v.add("ram");
+		v.add("neha");
+		v.add("vasu");
+		v.add("vishehs");
+		v.add("virat");
+		v.add("anu");
+		v.add("rohit");
+		v.add("mahii");
+		
+		 System.out.println(v);
+		
+		
+	}
+
+}
+ 

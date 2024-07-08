@@ -1,0 +1,21 @@
+package july8.vector;
+import java.util.*;
+public class Ar {
+
+	
+	public static void main(String[] args) {
+		
+		Vector<String> v = new Vector<>();
+		
+		v.add("Rohan");
+		v.add("Ram");
+		v.add("Raju");
+		
+		for(String vv:v) {
+			System.out.println(v);
+		}
+		
+		v.addAll(v);
+		
+	}
+}

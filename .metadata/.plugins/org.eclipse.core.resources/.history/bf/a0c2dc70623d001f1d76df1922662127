@@ -1,0 +1,45 @@
+package july8.stack;
+
+import java.util.Stack;
+
+public class Example {
+	public static void main(String[] args) {
+		
+		
+		Stack<String > st = new Stack<String> ();
+		st.add("Neha");
+		st.add("mona");
+		st.add("reena");
+		st.add("anuj");
+		st.add("rakhi");
+		st.add("vasu");
+		st.add("shalu");
+		
+		
+		System.out.println(st);
+		
+		System.out.println("after pushing");
+		st.push("Rohan");
+		st.push("neel");
+		st.push("kaali");
+		System.out.println(st);
+		
+		System.out.println("after pop");
+		st.pop();
+		st.pop();
+		System.out.println(st);
+		
+		System.out.println("after peek");
+		st.peek();
+		System.out.println(st);
+		
+		System.out.println("check if the stack empty");
+		st.clear();
+		System.out.println(st);
+		
+		System.out.println("print the final stack");
+		System.out.println(st);
+		
+	}
+
+}
