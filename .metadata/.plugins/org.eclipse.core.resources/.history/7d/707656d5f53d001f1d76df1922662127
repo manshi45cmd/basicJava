@@ -1,0 +1,16 @@
+package july9.string;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s = "sachin";
+		for(int i = 0;i<=5;i++) {
+			s= s + i;
+			System.out.println(s);
+		}
+	}
+
+}

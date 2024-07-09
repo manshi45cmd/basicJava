@@ -1,0 +1,26 @@
+package july9.string;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s = "sachin";
+		for(int i = 0;i<=5;i++) {
+			s= s + i;
+			//System.out.println(s);
+		} System.out.println(s);
+		
+		String ss = "ramesh";
+		System.out.println(ss);
+		System.out.println(s.charAt(2));
+		System.out.println("lenth of string"+ s.lastIndexOf(ss));
+		
+		char aa[] = s.toCharArray();
+		for(char pp : aa) {
+			System.out.println(pp);
+		}
+	}
+
+}
