@@ -1,0 +1,28 @@
+package string;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		 
+		String s = "Manshi ";
+		String ss = "Neha";
+
+
+		s= s+" Shrivastav";
+		System.out.println(s);
+		
+		s= s.toUpperCase();
+		System.out.println("UperCase : " +s);
+		
+		System.out.println("Caontains value : "+ s.contains(s));
+		
+		System.out.println("length of String : "+ s.length());
+		
+		System.out.println("trim :"+ s.trim());
+		
+		
+		
+
+	}
+
+}

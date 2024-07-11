@@ -1,0 +1,29 @@
+package string;
+
+public class Palandrom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s= "naman";
+		
+		 boolean flg = true;
+		int i = 0;
+		int j = s.length();
+		while(i<j) {
+			if(s.charAt(i) == s.charAt(j)) {
+				i++;
+				j--;
+				
+			}else {
+				System.out.println("not palindrom");
+				flg = false;
+				break;
+				
+			}
+		}
+		 
+
+	}
+
+}

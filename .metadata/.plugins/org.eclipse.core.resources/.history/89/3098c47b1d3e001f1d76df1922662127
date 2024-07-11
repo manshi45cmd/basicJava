@@ -1,0 +1,16 @@
+package string;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		 
+		String s= "manshi ";
+		s= s.toUpperCase();
+		System.out.println(s);
+		
+		int len =s.length();	 
+		System.out.println(len);
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package interfacee.multilableIn;
+
+public interface Showable {
+
+}
