@@ -1,0 +1,15 @@
+package Sett;
+import java.util.*;
+
+public class Country {
+	
+	public static void main(String[] args) {
+		String[] name = { "neha","rahul","kunal"} ;
+		
+		String [] 
+		
+				
+	}
+	
+
+}

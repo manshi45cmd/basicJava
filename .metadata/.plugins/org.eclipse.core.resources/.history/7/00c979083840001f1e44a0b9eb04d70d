@@ -1,0 +1,20 @@
+package string;
+import java.util.*;
+
+public class Plandromm {
+	public static void main(String[] args) {
+		
+	
+	StringBuilder str = new StringBuilder("neha");
+	
+	StringBuilder gtr = str.reverse();
+	boolean flg = true;
+	
+	if(str.equals(gtr)) {
+		System.out.println("palindromic");
+	}else {
+		System.out.println("notpalindromc");
+	}
+
+}
+}
