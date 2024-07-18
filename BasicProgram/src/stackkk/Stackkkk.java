@@ -27,15 +27,14 @@ public class Stackkkk {
 		
 		if(top>=MAX) {
 			System.out.println("stacll overflow ");
-			
+		 
 			return false;
 		}
 		top++;
 		arr[top] = x;
 		System.out.println("Value pushed into stack successfuly ");
       return true;		
-	}
-
+	} 
 	int pop() {
 		if(top<0) {
 			System.out.println("stack under flow");

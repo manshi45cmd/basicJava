@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="multithreading.ThreadA.ThreadB"/>
+    <fullyQualifiedTypeName name="multithreading.ThreadA.ThreadC"/>
 </qualifiedTypeNameHistroy>
