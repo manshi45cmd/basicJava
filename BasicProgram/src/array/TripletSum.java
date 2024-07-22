@@ -17,7 +17,7 @@ public class TripletSum {
 					}
 				}
 			}
-		}ll
+		}
 		return ans;
 	 
 	} 

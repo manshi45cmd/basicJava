@@ -19,5 +19,14 @@ public class ThreadBB  implements Runnable{
 		sec.start();
 		
 	}
+
+
+
+
+
+	private void start() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
