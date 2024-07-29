@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="multithreading.ThreadA.ThreadB"/>
     <fullyQualifiedTypeName name="multithreading.ThreadA.ThreadC"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
 </qualifiedTypeNameHistroy>

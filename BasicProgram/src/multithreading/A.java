@@ -15,6 +15,21 @@ public class A  implements Runnable{
 		}
 	}
 	
+	public static void main(String [] args) {
+		
+		A a1 = new A();
+		Thread t1 = new Thread(a1); // passing runnable object to the constructor of thread class
+		t1.start();
+		try {
+			t1.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
 
 }
 

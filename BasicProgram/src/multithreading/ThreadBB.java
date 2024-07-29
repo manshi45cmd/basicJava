@@ -1,32 +1,12 @@
 package multithreading;
 
-public class ThreadBB  implements Runnable{
- 
+public class ThreadBB implements   Runnable {
+	
 	public void run() {
-		for(int i =0; i<30 ;i++) {
-			System.out.println(i+" second thread");
+		for( int i =1 ;i<=10; i++) {
+			String tname = Thread.currentThread().getName();
+			System.out.println(tname + " is running ");
 		}
 	}
-	
-	
-	
-	
-	
-	public static void main(String[] args) {
-		ThreadBB tt =new ThreadBB();
-		ThreadBB sec = new ThreadBB();
-		
-		sec.start();
-		
-	}
 
-
-
-
-
-	private void start() {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }

@@ -5,9 +5,9 @@ public class ThreadC extends Thread {
 	 public void run() {
 		 
 	for(int i =20;i<30;i++) {
-		System.out.println(i+"third thread");
+		System.out.println(i+" inside third threadC");
 	}
-	System.out.println("end of thread");
+	System.out.println("end of threadC");
 }
 
 }
