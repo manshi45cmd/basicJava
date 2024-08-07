@@ -11,7 +11,6 @@ public class ThreadB  extends Thread{
 		
 		 
 	}
-
  
 	public void run() {
 		c.fun1(name);
