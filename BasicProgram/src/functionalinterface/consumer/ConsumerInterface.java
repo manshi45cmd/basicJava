@@ -13,13 +13,10 @@ public interface ConsumerInterface {
 		
 		
 		System.out.println("ConsumerInterface ");
-		 String result = "welcome";
-		System.out.println(result + some);
+		 String result = "welcome" + some;
+		System.out.println(result );
 	}
 	
 	
-	public int supplierMethod() {
-		return 1212;
-	}
-
+	 
 }

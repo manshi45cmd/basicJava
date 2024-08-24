@@ -9,6 +9,7 @@ public class KRotation {
 			 System.out.print(arr[i]+" ");
 		}
 	}
+	
 	static int[] rotate(int[]arr , int k) {
 		int n =arr.length;
 		k = k % n;
@@ -22,6 +23,7 @@ public class KRotation {
 		for(int i =0 ; i<n-k;i++) {
 			ans[j++] = arr[i];
 		}
+		
 		
 		return ans;
 	}

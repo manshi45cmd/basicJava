@@ -15,8 +15,26 @@ public class MainTest1 {
 		 Consumer<String> consumer2 =  ConsumerInterface :: doingSomeOperation;
 		 consumer2.accept("Ram");
 		 
+		 Consumer<Integer> consumer3 = ConsumerInterface :: doingSomeOperation;
+		 consumer3.accept(12);
 		 
-		 Supplier s = new ConsumerImpl : supplierMethod;
+		 Supplier s = ConsumerImpl :: supplierMethod;
+		 System.out.println(s.get());
+		 
+		 
+		 Runnable thread = new Runnable() {
+
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("I am from runnable interface ");
+			}
+			 
+		 };
+		 
+		 Thread t1 = new Thread(thread);
+		 t1.start();
+		 
 	}
 
 }

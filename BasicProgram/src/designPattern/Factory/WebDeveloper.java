@@ -7,8 +7,8 @@ public class WebDeveloper implements Employee
 	public int getSalary() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Salary of web Developer ");
-		return 60000;
+		System.out.println("Salary of Android Developer ");
+		return 50000;
 	}
 
 }

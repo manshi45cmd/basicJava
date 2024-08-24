@@ -8,9 +8,14 @@ public class ConsumerImpl implements Consumer {
 	public void accept(Object t) {
 		// TODO Auto-generated method stub
 		
+		System.out.println("i am from consumerImpl");
+
+		System.out.println(t);
 	}
 	
-	
+	public static int supplierMethod() {
+		return 10000;
+	}
 	 
 
 }
