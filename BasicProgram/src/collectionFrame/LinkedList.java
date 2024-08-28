@@ -58,4 +58,8 @@ public static void main(String[] args) {
 //	LinkedList<Integer> li = new LinkedList<Integer>();
 //	li.add(121);
 }
+public void addNode(int i) {
+	// TODO Auto-generated method stub
+	
+}
 }

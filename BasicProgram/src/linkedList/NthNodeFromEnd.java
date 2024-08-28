@@ -60,14 +60,15 @@ public static Node removeNthNode(Node head, int n) {
 	}
 	if(fast == null) {
 		head = head.next;
-		 return fast ;
+		 return head ;
 	}
 	
 	while(fast.next != null) {
 		slow = slow.next;
 		fast= fast.next;
 	}
-	return slow;
+	slow.next = slow.next.next;
+	return head;
 }
 
 public static void display(Node head) {
@@ -97,12 +98,14 @@ public static void display(Node head) {
 	    
 	    System.out.println(q.data);
 	    
-	    Node q1 = nthNode2(a,6);
+	    Node q1 = nthNode2(a,2);
 	    
 	    System.out.println(q1.data);
 	    
 //	    Node nn = nthNode2(a,1);
 //	    System.out.println(nn.data);
+	    display(a);
+	    a = removeNthNode(a,6);
 	    display(a);
 	}
 
