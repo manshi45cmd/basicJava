@@ -4,22 +4,21 @@ import java.util.Scanner;
 
 public class TripletSum {
 
-	public static int tripleSum(int[] arr,int target) {
+	public static int[] tripleSum(int[] arr,int target) {
 		
 		int n = arr.length;
-		int ans = 0;
+		int[] ans = {0,0,0};
 		for(int i =0; i<n;i++) {
 			for(int j =i+1; j<n;j++) {
 				for(int k = j+1;j<n;k++) {
 					
 					if(arr[i]+arr[j]+arr[k] == target) {
-						ans++;
+						 return new int[] {i,j,k};
 					}
 				}
 			}
 		}
-		return ans;
-	 
+		return null; 
 	} 
 	
 	public static void main(String[] args) {

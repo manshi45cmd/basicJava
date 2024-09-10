@@ -2,27 +2,27 @@ package sorting;
  
 public class MergeSort {
 
-    // divide function: recursively divides the array into smaller subarrays
+    // divide function: recursively divides the array into smaller sub_arrays
     public static void divide(int arr[], int si, int ei) {
-        // base case: if the subarray has only one element, return
+        // base case: if the sub_array has only one element, return
         if (si >= ei) {
             return;
         }
         
-        // calculate the midpoint of the subarray
+        // calculate the midpoint of the sub_array
         int mid = si + (ei - si) / 2;
         
-        // recursively divide the left half of the subarray
+        // recursively divide the left half of the sub_array
         divide(arr, si, mid);
         
-        // recursively divide the right half of the subarray
+        // recursively divide the right half of the sub_array
         divide(arr, mid + 1, ei);
         
         // merge the two sorted halves
         merge(arr, si, mid, ei);
     }
 
-    // merge function: merges two sorted subarrays into a single sorted array
+    // merge function: merges two sorted sub_arrays into a single sorted array
     public static void merge(int arr[], int si, int mid, int ei) {
         // create a temporary array to store the merged result
         int merged[] = new int[ei - si + 1];
