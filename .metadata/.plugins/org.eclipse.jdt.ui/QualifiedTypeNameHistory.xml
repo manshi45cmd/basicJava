@@ -15,4 +15,13 @@
     <fullyQualifiedTypeName name="designPattern.Factory.EmployeeFactory"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="designPattern.Singleton.Jalebi"/>
+    <fullyQualifiedTypeName name="designPattern.builder.User.UserBuilder"/>
+    <fullyQualifiedTypeName name="designPattern.builderEx2.Computer.ComputerBuilder"/>
+    <fullyQualifiedTypeName name="designPattern.Singleton.Samosa"/>
+    <fullyQualifiedTypeName name="designPattern.FactoryEx2.EmployeeFactory"/>
+    <fullyQualifiedTypeName name="lab21.Assignment1.ShapeFactory"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.awt.Font"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>
